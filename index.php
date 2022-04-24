@@ -69,9 +69,9 @@
 function uploadimg(file){
       var timestamp=new Date().getTime();//获取时间戳
       var nameofimg=timestamp+"."+houzhui;//以事件戳重命名
-      var picurl="https://cdn.jsdelivr.net/gh/用户名/仓库名@main/"+nameofimg;
+      var picurl="https://cdn.jsdelivr.net/gh/Kobe-Curry/FreePic@main/"+nameofimg;
     var settings = {
-    "url": "https://api.github.com/repos/用户名/仓库名/contents/"+nameofimg,
+    "url": "https://api.github.com/repos/Kobe-Curry/FreePic/contents/"+nameofimg,
     "method": "PUT",
     "timeout": 0,
     "headers": {
